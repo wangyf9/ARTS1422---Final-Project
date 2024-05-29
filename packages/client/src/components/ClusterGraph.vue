@@ -97,7 +97,7 @@ export default {
 				.range([0, height * picture_range]);
 			this.colorScale = d3.scaleOrdinal()
 				.domain([5, 0, 4, 1, 2, 3])
-				.range(["#FF0033", "#ff9966", "#0099FF", "#FFCC00", "#99CC00", "#9966CC"]);
+				.range(["#FF0033", "#ff9966", "#00BFFF", "#FFCC00", "#99CC00", "#FFB5C5"]);
 			this.svg = d3.select(".scatter-plot").append("svg")
 				.attr("width", "100%")
 				.attr("height", "100%")

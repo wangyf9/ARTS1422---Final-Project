@@ -123,7 +123,7 @@ export default {
 			return {
 				title: {
 					text: "ID " + selectedLabel,
-					top: "20%",
+					top: 35,
 					right: 0,
 					textStyle: {
 						color: '#fff',
@@ -180,7 +180,7 @@ export default {
 							value: parseFloat(item[selectedLabel]),
 							name: item[''],
 							itemStyle: {
-								color: ['#0077cc', '#9933cc', '#ffbb33', '#cc0000', '#66cc66', '#46B0FF', '#ff69b4', '#33FF49', '#6600cc', '#ff8800'][index]
+								color: ['#87CEFA', '#ffbb33', '#9933cc', '#cc0000', '#66cc66', '#46B0FF', '#ff69b4', '#33FF49', '#6600cc', '#ff8800'][index]
 							}
 						})).slice(5)
 					},
@@ -192,7 +192,7 @@ export default {
 							value: parseFloat(item[selectedLabel]),
 							name: item[''],
 							itemStyle: {
-								color: ['#0077cc', '#9933cc', '#ffbb33', '#cc0000', '#66cc66', '#46B0FF', '#ff69b4', '#33FF49', '#6600cc', '#ff8800'][index]
+								color: ['#87CEFA', '#ffbb33', '#9933cc', '#cc0000', '#66cc66', '#46B0FF', '#ff69b4', '#33FF49', '#6600cc', '#ff8800'][index]
 							}
 						})).slice(0, 5)
 					}

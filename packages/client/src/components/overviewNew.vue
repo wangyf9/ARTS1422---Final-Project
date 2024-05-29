@@ -244,7 +244,7 @@ import { fa } from 'element-plus/es/locale/index.mjs';
                 data: this.AtHome,
                 xAxisIndex: 1,
                 show: false,
-                color:"#0077cc"
+                color:"#87CEFA"
             },
             {
                 name: 'Transport',
@@ -252,7 +252,7 @@ import { fa } from 'element-plus/es/locale/index.mjs';
                 data: this.Transport,
                 xAxisIndex: 1,
                 show: false,
-                color:"#ffbb33"
+                color:"#9933cc"
             },
             {
                 name: 'AtRecreation',
@@ -276,7 +276,7 @@ import { fa } from 'element-plus/es/locale/index.mjs';
                 data: this.AtWork,
                 xAxisIndex: 1,
                 show: false,
-                color:"#9933cc"
+                color:"#ffbb33"
             },
 
           ]

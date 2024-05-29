@@ -19,11 +19,11 @@ export default {
 			startTime: +new Date("2022-03-01T00:00:00"),
 			current_time: '2022-03-01',
 			types: [
-				{ name: 'AtHome', color: '#0077cc' },
-				{ name: 'Transport', color: '#ffbb33' },
+				{ name: 'AtHome', color: '#87CEFA' },
+				{ name: 'Transport', color: '#9933cc' },
 				{ name: 'AtRecreation', color: '#66cc66' },
 				{ name: 'AtRestaurant', color: '#cc0000' },
-				{ name: 'AtWork', color: '#9933cc' },
+				{ name: 'AtWork', color: '#ffbb33' },
 				{ name: 'null', color: '#808080' },
 			],
 		};

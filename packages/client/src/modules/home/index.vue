@@ -437,8 +437,8 @@ export default {
 				0: { "arrowColor": "orange", "circleColor": "orange" },
 				1: { "arrowColor": "yellow", "circleColor": "yellow" },
 				2: { "arrowColor": "#66cc66", "circleColor": "#00FF6A" },
-				3: { "arrowColor": "#b953ec", "circleColor": "#FF66E5" },
-				4: { "arrowColor": "blue", "circleColor": "#24A0FF" },
+				3: { "arrowColor": "#ffd9e6", "circleColor": "#ffd9e6" },
+				4: { "arrowColor": "#00BFFF", "circleColor": "#00BFFF" },
 				5: { "arrowColor": "red", "circleColor": "#FF6B6B" },
 			};
 
