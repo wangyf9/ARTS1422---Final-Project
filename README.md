@@ -3,7 +3,7 @@
 ## Introduction
 
 - Final Project for Data Visualization class(ARTS1422) in Shanghaitech, spring, 2024.
-- The project frame is based on Vue 3 and Vite.
+- The project frame is based on Vue 3 and Vite(Under 2k condition, you can have a better overview).
 - Group members: 夏康杰, 王芸飞, 贾舜康
 
 ## Components Introduction
@@ -18,15 +18,16 @@
 
 ## The Visualization System
 
-![overview](/Img/overview.png)
+![overview](/Img/overview_.png)
 
 ## What operations can do
 
 - Click on the Calendar to select the expected date and the corresponding changes will be shown in the Daily Routine and the River Map.
 - By clicking on the expected points in the Different Life Patterns, Daily Routine and Pie charts will change accordingly.
 - Legend in some components can also be clicked, and the corresponding part will be hidden.
-- Most of the places have mouseover interactions, and you can see the details of their properties by moving the mouse to the corresponding location
-
+- Most of the places have mouseover interactions, and you can see the details of their properties by moving the mouse to the corresponding location.
+- You can press an ID through the input box.
+- 
 ## How to run code
 
 - Step 1: Install dependencies

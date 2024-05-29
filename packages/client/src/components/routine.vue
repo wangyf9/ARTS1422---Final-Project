@@ -30,6 +30,10 @@ export default {
 	},
 
 	props: {
+		date: {
+			type: String,
+			required: true,
+		},
 		selectedId1: {
 			required: true,
 		},
@@ -66,6 +70,11 @@ export default {
 	},
 
 	watch: {
+		// date: async function (newDate) {
+		// 	const filteredData = await this.loadData();
+		// 	this.generateRountine(this.alldata, this.columns);
+		// 	this.renderChart();
+		// },
 		selectedId1: function (newId) {
 			this.participantId[1] = this.selectedId1.id;
 			this.generateRountine(this.alldata, this.columns);

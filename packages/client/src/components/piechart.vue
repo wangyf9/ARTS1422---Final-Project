@@ -24,7 +24,7 @@ export default {
 			nullDataOption: {
 				title: {
 					text: "ID null",
-					top: "20%",
+					top: 35,
 					right: 0,
 					textStyle: {
 						color: '#fff',

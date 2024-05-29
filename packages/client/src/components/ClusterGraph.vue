@@ -105,11 +105,11 @@ export default {
 				.style("border", "1px solid #ccc");
 			this.svg.append("text")
 				.attr("x", width / 2)
-				.attr("y", 20)
+				.attr("y", 28)
 				.attr("text-anchor", "middle")
 				.attr("fill", "#fff")
 				.attr("font-style", "italic")
-				.style("font-size", "16px")
+				.style("font-size", "24px")
 				.style("font-weight", "bold")
 				.text("Different Life Patterns");
 
@@ -125,6 +125,7 @@ export default {
 				.on("mouseover", (event, d) => this.selected(event, d, event.pageX, event.pageY))
 				.on("mouseout", (event, d) => this.unselected(event, d))
 				.on("click", (event, d) => this.clicked(event, d));
+				
 			for (let i = 1; i < 3; i++) {
 				this.svg.append("line")
 					.attr("x1", 0)

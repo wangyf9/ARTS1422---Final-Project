@@ -9,11 +9,12 @@ import Piecomponent from './components/piechart.vue';
 import RivermapComponent from './components/Rivermap.vue';
 import RountineComponent from './components/routine.vue';
 import NewOverviewComponent from './components/overviewNew.vue';
+import NumberInputComponent from './components/NumberInput.vue';
+
 const date = ref('2022-03-01');
 const handleDateUpdate = (newDate) => {
 	date.value = newDate;
 }
-
 
 const selectedId1 = ref({ id: 'null', label: null });
 const selectedId2 = ref({ id: 'null', label: null });
@@ -63,6 +64,9 @@ const handleSelectedIdUpdate = (newId, newLabel) => {
 		<div id="chart" class="map">
 			<Mapcomponent :date="date" :selectedId1=selectedId1 :selectedId2=selectedId2>
 			</Mapcomponent>
+			<NumberInputComponent>
+				<!-- :date="date" :selectedId1=selectedId1 :selectedId2=selectedId2 @update:selectedId="handleSelectedIdUpdate" -->
+			</NumberInputComponent>
 		</div>
 		<div class="timeline">
 			<div class="time-point"></div>
@@ -71,11 +75,9 @@ const handleSelectedIdUpdate = (newId, newLabel) => {
 			<RivermapComponent :date="date"></RivermapComponent>
 		</div>
 		<div class="scatter-plot">
-
 			<ClusterGraphComponent :date="date" :selectedId1=selectedId1 :selectedId2=selectedId2
 				@update:selectedId="handleSelectedIdUpdate">
 			</ClusterGraphComponent>
-
 		</div>
 		<div class="daily-life-plot">
 			<button style="width: 100%; height: 100%; background-color: #404a59;">
@@ -110,7 +112,13 @@ const handleSelectedIdUpdate = (newId, newLabel) => {
 }
 
 .map {
-	grid-area: 1 / 5 / 39 / 17;
+  grid-area: 1 / 5 / 39 / 17;
+  position: relative; 
+}
+.input-container {
+	position: absolute;
+	top: 10px;
+	right: 10px; 
 }
 
 .clock {
