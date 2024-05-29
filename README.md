@@ -18,7 +18,7 @@
 
 ## The Visualization System
 
-![overview](/Img/overview_.png)
+![overview](/Img/overview_1.png)
 
 ## What operations can do
 
@@ -27,7 +27,7 @@
 - Legend in some components can also be clicked, and the corresponding part will be hidden.
 - Most of the places have mouseover interactions, and you can see the details of their properties by moving the mouse to the corresponding location.
 - You can press an ID through the input box.
-- 
+
 ## How to run code
 
 - Step 1: Install dependencies
